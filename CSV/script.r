@@ -1,5 +1,5 @@
 require("effsize")
 
 data <- read.csv("plotly_committer.txt")
-wilcox.test(count ~ response, data) # esse calcula o p-value
-cliff.delta(count ~ response, data) # esse calcula o effect size
+wilcox.test(count ~ response, data) # p-value
+cliff.delta(count ~ response, data) # effect size
